@@ -23,12 +23,17 @@
                     <source src="../media/Something About Her.mp3" type="audio/mpeg"></source>
                 </audio>
 
-                <input type="range" value="0" id="progress">
+                <input type="range" value="0" id="progress" min="0" max="100" step="1">
 
 
-                
+                <div class="controls">
+                    <div><i class="fa-solid fa-backward"></i></div>
+                    <div><i class="fa-solid fa-play"></i></div>
+                    <div><i class="fa-solid fa-forward"></i></div>
+                </div>
             </div>
         </div>
         <script src="../scripts/general.js"></script>
+        <script src="../scripts/song.js"></script>
     </body>
 </html>
