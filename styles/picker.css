@@ -7,14 +7,31 @@ body {
 .home-menu {
     display: grid;
     grid-template-columns: 270px 1000px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    width: 99.5%;
+}
+
+.home-menu:hover{
+    background-color: rgb(58, 58, 58);
 }
 
 .album-info-container {
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-top: 70px;
     display: grid;
-    grid-template-rows: 200px 70px;
+    grid-template-rows: 90px 70px;   
 }
 
+.album-title {
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.album-author {
+    font-size: 20px;
+}
 
 .song-container {
     display: grid;
@@ -31,17 +48,25 @@ body {
     font-size: 25px;
     display: grid;
     grid-template-columns: 40px 1000px 100px;
-    width: 1200px;
+    width: 98%;
     color: grey;
     border: 0px;
     border-bottom: 2px;
     border-style: solid;
+    cursor: default;
 }
 
 .song{
+    margin-top: 5px;
     padding: 10px;
     font-size: 25px;
     display: grid;
     grid-template-columns: 40px 1000px 100px;
-    width: 1500px;
+    width: 98%;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.song:hover{
+    background-color: rgb(58, 58, 58);
 }
