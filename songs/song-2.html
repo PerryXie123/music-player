@@ -1,8 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evangeline</title>
+        <link rel="stylesheet" href="../styles/song.css">
+        <script src="https://kit.fontawesome.com/fff6c09cf7.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     </head>
     <body>
-        two
+        <div class="container">
+            <div class="music-player">
+                <nav>
+                    <div class="circle" onclick="openPage('../picker.html')">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                </nav>
+                <img src="../images/angel-face-cover.webp" class="song-img">
+                <h1>Evangeline</h1>
+                <p>Stephen Sanchez</p>
+
+                <audio id="song">
+                    <source src="../media/Evangeline.mp3" type="audio/mpeg"></source>
+                </audio>
+
+                <input type="range" value="0" id="progress" min="0" max="177" step="1">
+
+
+                <div class="controls">
+                    <div onclick="openPage('song-1.html')"><i class="fa-solid fa-backward"></i></div>
+                    <div onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></div>
+                    <div onclick="openPage('song-3.html')"><i class="fa-solid fa-forward"></i></div>
+                </div>
+            </div>
+        </div>
+        <script src="../scripts/general.js"></script>
+        <script src="../scripts/song.js"></script>
     </body>
 </html>

@@ -1,3 +1,4 @@
+
 let range = document.getElementById("progress");
 
 function updateRange() {
