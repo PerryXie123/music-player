@@ -3,3 +3,12 @@ body {
     color: white;
     font-family: "Nunito Sans";
 }
+
+.album-container {
+    display: grid;
+    justify-content: center;
+}
+
+.album-image img {
+    height: 500px;
+}
