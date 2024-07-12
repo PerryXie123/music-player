@@ -4,21 +4,37 @@ body {
     font-family: "Nunito Sans";
 }
 
+.home-container {
+    display: flex;
+    justify-content: center;
+}
+
 .album-container {
     display: grid;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 0px;
+    width: 520px;
+    height: 610px;
+    background-color: rgb(40, 40, 40);
+    padding-top: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, background-color 0.15s;
 }
 
 .album-image {
-    box-shadow: 0px 0px 30px black;
+    box-shadow: 0px 0px 10px black;
     height: 500px;
     width: 500px;
-    cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.15s;
 }
 
-.album-image:hover {
-    box-shadow: 0px 0px 30px black;
+.album-container:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.album-container:hover .album-image{
+    opacity: 0.9;
 }
 
 .album-image img {
@@ -26,8 +42,13 @@ body {
     width: 500px;
 }
 
+
 .album-title {
     font-weight: 700;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 0px;
+}
+
+.album-author {
+    padding-bottom: 0px;
 }
