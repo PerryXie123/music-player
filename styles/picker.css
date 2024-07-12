@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: "Nunito Sans";
+}
+
+.home-menu {
+    display: grid;
+    grid-template-columns: 270px 1000px;
+}
+
+.album-info-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 200px 70px;
+}
+
+
+.song-container {
+    display: grid;
+    width: 1500px;
+}
+
+.song-container img {
+    padding: 10px;
+    height: 250px;
+}
+
+.bar{
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 40px 1000px 100px;
+    width: 1200px;
+    color: grey;
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+.song{
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 40px 1000px 100px;
+    width: 1500px;
+}
