@@ -7,8 +7,27 @@ body {
 .album-container {
     display: grid;
     justify-content: center;
+    margin-top: 100px;
+}
+
+.album-image {
+    box-shadow: 0px 0px 30px black;
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.album-image:hover {
+    box-shadow: 0px 0px 30px black;
 }
 
 .album-image img {
     height: 500px;
+    width: 500px;
+}
+
+.album-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
 }
