@@ -26,7 +26,7 @@ function renderSongList() {
                 Title
             </div>
             <div class="song-duration">
-                Duration
+                <i class="fa-regular fa-clock"></i>
             </div>
         </div>
     `;
