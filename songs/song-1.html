@@ -5,16 +5,30 @@
         <title>Something About Her</title>
         <link rel="stylesheet" href="../styles/song.css">
         <script src="https://kit.fontawesome.com/fff6c09cf7.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="music-player">
                 <nav>
-                    <div class="circle">
+                    <div class="circle" onclick="openPage('../picker.html')">
                         <i class="fa-solid fa-angle-left"></i>
                     </div>
                 </nav>
+                <img src="../images/angel-face-cover.webp" class="song-img">
+                <h1>Something About Her</h1>
+                <p>Stephen Sanchez</p>
+
+                <audio controls>
+                    <source src="../media/Something About Her.mp3" type="audio/mpeg"></source>
+                </audio>
+
+                <input type="range" value="0" id="progress">
+
+
+                
             </div>
         </div>
+        <script src="../scripts/general.js"></script>
     </body>
 </html>
