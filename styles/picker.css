@@ -17,16 +17,19 @@ body {
 }
 
 .album-info-container {
-    padding-left: 10px;
-    padding-top: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
     display: grid;
-    grid-template-rows: 90px 70px;   
+    grid-template-rows: 90px 40px 50px;   
 }
 
 .album-title {
     font-size: 70px;
     font-weight: 700;
-    padding-bottom: 0px;
+}
+
+.album-description{
+    width: 600px;
 }
 
 .album-author {
@@ -45,9 +48,10 @@ body {
 
 .bar{
     padding: 10px;
+    padding-left: 20px;
     font-size: 25px;
     display: grid;
-    grid-template-columns: 40px 1000px 100px;
+    grid-template-columns: 50px 1000px 100px;
     width: 98%;
     color: grey;
     border: 0px;
@@ -59,9 +63,10 @@ body {
 .song{
     margin-top: 5px;
     padding: 10px;
+    padding-left: 20px;
     font-size: 25px;
     display: grid;
-    grid-template-columns: 40px 1000px 100px;
+    grid-template-columns: 50px 1000px 100px;
     width: 98%;
     cursor: pointer;
     transition: background-color 0.15s;
@@ -69,4 +74,10 @@ body {
 
 .song:hover{
     background-color: rgb(58, 58, 58);
+}
+
+.song-number {
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
 }
