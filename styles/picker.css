@@ -9,8 +9,11 @@ body {
     grid-template-columns: 270px 1000px;
     cursor: pointer;
     transition: background-color 0.15s;
-    width: 99.5%;
+    width: 90.2%;
     border-radius: 2px;
+    position: fixed;
+    background-color: rgb(40, 40, 40);
+    margin-top: -320px;
 }
 
 .home-menu:hover{
@@ -48,18 +51,22 @@ body {
 }
 
 .bar{
+    margin-top: -50px;
     padding: 10px;
     padding-left: 20px;
     font-size: 20px;
     display: grid;
     grid-template-columns: 50px 1008px 100px;
-    width: 98%;
+    width: 88.2%;
     color: grey;
+    background-color: rgb(40, 40, 40);
     border: 0px;
     border-bottom: 2px;
     border-style: solid;
     cursor: default;
+    position: fixed;
 }
+
 
 .song{
     margin-top: 5px;
@@ -68,10 +75,11 @@ body {
     font-size: 20px;
     display: grid;
     grid-template-columns: 50px 1000px 100px;
-    width: 98%;
+    width: 89.3%;
     cursor: pointer;
     transition: background-color 0.15s;
     border-radius: 2px;
+    border: 0px;
 }
 
 .song:hover{
@@ -82,4 +90,21 @@ body {
     padding-right: 30px;
     display: flex;
     justify-content: center;
+}
+
+.song-container{
+    padding-top: 320px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(86, 86, 86);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(58, 58, 58);
+    border-radius: 2px;
 }
