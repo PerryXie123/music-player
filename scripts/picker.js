@@ -5,16 +5,16 @@ renderSongList();
 function renderSongList() {
     let songListHTML = `
         <div class="home-menu">
-            <img src="images/angel-face-cover.webp">
+            <img src="images/moments.png">
             <div class="album-info-container" onclick="openPage('home.html')">
                 <div class="album-title">
-                    Angel Face
+                    Moments
                 </div>
                 <div class="album-author">
-                    by Stephen Sanchez
+                    by Perry Xie
                 </div>
                 <div class="album-description">
-                    The album follows a "loose concept" of a fictional version of Sanchez named "The Troubadour Sanchez" rising to fame in 1958 after performing his song "Until I Found You" before he falls in love with a woman named Evangeline, who is the girlfriend of a mob boss named Hunter, and is killed.
+                    Cinema screens, we dine and dream,<br/>Eis in a cone, planetarium dome,<br/>Travel and see, sharing moments with me.
                 </div>
             </div>
         </div>
